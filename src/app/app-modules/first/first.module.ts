@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FirstRoutingModule } from './first.routing';
-import { FirstComponent } from './first.component';
+import { FirstchildComponent } from './firstchild/firstchild.component';
 
 @NgModule({
-  declarations: [FirstComponent],
-  imports: [BrowserModule, FirstRoutingModule],
+  declarations: [FirstchildComponent],
+  imports: [FirstRoutingModule],
   providers: []
 })
-export class AppModule {}
+export class FirstModule {}
