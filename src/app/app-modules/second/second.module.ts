@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { SecondRoutingModule } from './second.routing';
+import { SecondchildComponent } from './secondchild/secondchild.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [SecondchildComponent],
   imports: [SecondRoutingModule],
   providers: []
 })
