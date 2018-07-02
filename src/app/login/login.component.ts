@@ -13,6 +13,5 @@ export class LoginComponent implements OnInit {
   login() {
     console.log('logion');
     this.router.navigateByUrl('/first/first-child');
-    // this.router.navigate(['/first/first-child']);
   }
 }
